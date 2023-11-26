@@ -1,0 +1,46 @@
+.accordion {
+    border-radius: 20px;
+    border: 2px solid #FFF;
+    backdrop-filter: blur(5px);
+    padding: 1%;
+    width: 60%;
+    background-color: rgba(10, 10, 10, 0.5);
+    color: #FFF;
+    outline: none;
+    font-size: 30px;
+    transition: 0.4s;
+    margin: 0.25%;
+    margin-left: 20%;
+    
+  }
+  
+  .active, .accordion:hover {
+    background-color: rgba(10, 10, 10, 0.5); 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: rgba(10, 10, 10, 0.5);
+    overflow: hidden;
+    border-radius: 20px;
+    border: 2px dashed #FFF;
+    backdrop-filter: blur(5px);
+    margin: 0.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+.imgTolls {
+  display:block;
+  float:left;
+  margin-left:4%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.imgTolls:nth-child(6n+1) {
+  clear:both;
+}
+.iconMore{
+  float: right;
+}
+  

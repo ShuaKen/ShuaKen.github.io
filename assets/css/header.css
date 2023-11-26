@@ -1,0 +1,33 @@
+header{
+    margin-left: 20%;
+    margin-bottom: 20%;
+}
+
+.photo {
+    width: 238px;
+    height: 238px;
+    flex-shrink: 0; 
+    border-radius: 50%;
+    margin-right: 30px;
+    float: left;
+    
+}
+.title{
+    margin-bottom: 5px;
+}
+
+.information {
+    float: left;
+}
+
+.information p{
+    margin-left: 8px;
+    margin: 8px;
+}
+@media(max-width: 450px){
+    .photo{
+        width: 200px;
+        height: 200px;
+    }
+}
+
