@@ -1,16 +1,22 @@
 body {
-    background-color: #000;
-    color: #fff;
-    font-size: 90%;
+  color: #fff;
+  font-size: 100%;
+  background: linear-gradient(
+  90deg,
+  rgb(70, 69, 69),
+  rgb(51, 51, 51) 35%,
+  rgb(0, 0, 0) 100%
+);
+
 }
 
 .main{
-    border-radius: 20px;
-    border: 1px solid #fff;
-    backdrop-filter: blur(21px);
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 2%;
-    padding-bottom: 1%;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  backdrop-filter: blur(21px);
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2%;
+  padding-bottom: 1%;
     
 }
